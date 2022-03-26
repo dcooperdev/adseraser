@@ -1,0 +1,20 @@
+{
+    "manifest_version": 3,
+    "name": "My Extension",
+    "description": "A plain text description",
+    "version": "0.0.1",
+    "icons": {
+        "16": "/images/brush-16.png",
+        "48": "/images/brush-48.png",
+        "128": "/images/brush-128.png"
+    },
+    "content_scripts": [
+        {
+          "matches": [
+              "http://*.google.com/*",
+              "https://*.google.com/*"
+            ],
+          "js": ["eraseAds.js"]
+        }
+      ]
+  }
