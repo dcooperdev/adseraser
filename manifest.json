@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "Ads eraser",
-  "description": "A plain text description",
+  "description": "A simple plugin to hide Ads from google searchs",
   "version": "0.0.3",
   "icons": {
       "16": "/images/brush-16.png",
