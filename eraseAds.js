@@ -1,2 +1,2 @@
-const elements = document.querySelector('[aria-label="Ads"]');
-elements.style.display = 'none';
+const elements = document.querySelectorAll('[aria-label="Ads"]');
+elements.forEach(node => node.style.display = 'none');
